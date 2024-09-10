@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang ="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>シルバニアファミリー</title>
+        </head>
+        <body>
+            <h1>sylvanianfamilies</h1>
+            <header>sylvanianfamilies</header>
+            <nav>
+                <ul>
+                    <li><a href="#">シルバニアファミリーの世界</a></li>
+                    <li><a href="http://127.0.0.1:3000/contact-html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img src="images/family.jpg"alt="シルバニアファミリーの家族">
+
+            
+        </body>

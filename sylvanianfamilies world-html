@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>シルバニアファミリーの世界</title>
+</head>
+<body>
+    <div id="top">  
+    <img src="images/familyworld.jpg" alt="シルバニアファミリーの家族">
+    </div>
+    <div id="top text">
+    <h1>シルバニアファミリーの世界</h1>
+    <p>ながれさっていくものが多すぎる時代に</p><p>ずっといっしょにいてくれてありがとう。</p><p>こころをかよわせてくれてありがとう。</p><p>かぞくのひとりにしてくれてありがとう</p><p>これからも、つぎの子どもたちへと受け継がれる、</p><p>丁寧で美しいシルバニア村の仲間たちを</p><p>世界中のたくさんの人に届けていきます。</p>
+    <p class="text">Forever Your Family</p>
+    <p class="sub text">ずっといっしょ、ずっとかぞく</p>
+    </div>
+</body>
