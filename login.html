@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ログインページ</title>
+        <link rel="stylesheet" href="login-styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-button active" onclick="showTab('login')">ログイン</button>
+                <button class="tab-button" onclick="showTab('register')">アカウントの作成</button>
+            </div>
+        <div id="login" class="tab-content active">
+            <form action="/login" method="post">
+                <label for="email">Eメール</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">パスワード</label>
+                <input type="password" id="password" name="password" required>
+                <div>
+                    <label for="remember">
+                        <input type="checkbox" id="remember" name="remember"> このアカウントを記録する
+                    </label>
+                </div>
+                <button type="submit">ログイン</button>
+            </form>
+            </div>
+
+            <div id="register" class="tab-content">
+                <from action="/register" method="post">
+                    <label for="new-username1">姓</label>
+                    <input type="text" id="new-username1" name="new-username1"required>
+                    <label for="new-username2">名</label>
+                    <input type="text" id="new-username2" name="new-username2" required>
+                    <label for="new-username1-1">セイ</label>
+                    <input type="text" id="new-username1-1" name="new-username1-1" required>
+                    <label for="new-username2-1">メイ</label>
+                    <input type="text" id="new-username2-1" name="new-username2-1" required>
+                    <label for="tel">電話</label>
+                    <input type="tel" id="tel" name="tel" required>
+                    <label for="register-email">Eメール</label>
+                    <input type="email" id="register-email" name="register-email" required>
+                    <label for="email-check">Eメールの確認入力</label>
+                    <input type="email" id="email-check" name="email-check" required>
+                    <label for="register-password">パスワード</label>
+                    <input type="password" id="register-password" name="register-password" required>
+                    <label for="register-pass-check">パスワードの確認入力</label>
+                    <input type="password" id="register-pass-check" name="register-pass-check" required>
+                    
+                    <label for="date-or-birth">生年月日</label>
+                    <select name="date">
+                        <option value="select">年</option>
+                        <option value="1958">1958</option>
+                        <option value="1959">1959</option>
+                        <option value="1960">1960</option>
+                        <option value="1961">1961</option>
+                        <option value="1962">1962</option>
+                        <option value="1963">1963</option>
+                        <option value="1964">1964</option>
+                        <option value="1964">1965</option>
+                        <option value="1966">1966</option>
+                        <option value="1967">1967</option>
+                        <option value="1968">1968</option>
+                        <option value="1969">1969</option>
+                        <option value="1970">1970</option>
+                    </select>
+                <select name="month">
+                    <option value="select">月</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="day">
+                    <option value="select">日</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">-12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+
+                    <button type="submit">アカウントの作成</button>
+                </from>
+            </div>
+            </div>
+            <script src="login-scripts.js"></script>
+    </body>
+</html>

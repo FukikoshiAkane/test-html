@@ -1,0 +1,41 @@
+@charset "utf-8";
+.top-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:left;
+}
+
+.top-img{
+    flex:1;
+}
+.top-text{
+    flex:1
+}
+
+h1{
+    padding:0.5rem 0;
+    margin-bottom:0.2rem;
+    border-bottom:4px dotted #FFCCCC;
+    width:70%;
+    font-weight:bold;
+    font-size:26px; 
+}
+h1{
+    color:#330000;
+}
+p{
+    color:#330000;
+    font-size:15px;
+    
+}
+.main.text{
+    color:#CC0000;
+    font-size:30px;
+    font-weight:bolder
+}
+.sub.text{
+    color:#330000;
+    font-size:17px;
+    font-weight: bold;
+}
