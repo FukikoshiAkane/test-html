@@ -2,6 +2,7 @@
 <html lang ="ja">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="contact.css">
         <title>お問い合わせ</title>
         </head>
         <body>
@@ -29,11 +30,11 @@
                     <div class="tbl--row name">
                         <div>
                             <label class="name">せい</label>
-                            <input imputmode="text" name="name1">
+                            <input inputmode="text" name="name1">
                         </div>
                         <div>
                             <label class="name">めい</label>
-                            <input imputmode="text" name="name2">
+                            <input inputmode="text" name="name2">
                         </div>
                         <div>さま</div>
                     </div>
@@ -150,7 +151,7 @@
                 <th>商品コード</th>
                 <td>
                     <input inputmode="numeric" title="半角英数字で入力して下さい" name="code" value="">
-                    <p>※商品パッケージ裏面または底面等にございますバーコード下部にある「49」から始まる１３桁の数字です。<br>おわかりになりましたらご入力ください</p>
+                    <p>※商品パッケージ裏面または底面等にございますバーコード下部にある「49」から始まる13桁の数字です。<br>おわかりになりましたらご入力ください</p>
                 </td>
             </tr>
             <tr>
@@ -226,4 +227,30 @@
                 <span>日</span>
                 </td>
             </tr>
-            </form>
+        <tr>
+            <th>商品購入店舗</th>
+            <td>
+                <input inputmode="numeric" title="" name="code" value="">
+            </td>
+        </tr>
+        <tr>
+            <th>お問い合わせ内容</th>
+            <td>
+                <textarea name="message" placeholder=""></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <th>画像添付</th>
+            <td>
+                <input type="file" name="file" accept="image/jpeg, image/png">
+            </td>
+        </tr>
+        <tr>
+            <td>
+        ><input type="submit" value="入力内容を確認する">
+            </td>
+        </tr>
+        </form>
+        </body>
+
